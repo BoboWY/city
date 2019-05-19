@@ -1,0 +1,66 @@
+<view class='home_box'>
+    <view class='home_image'>
+    <swiper indicator-dots indicator-color="#808080" indicator-active-color="#fff" autoplay circular>
+        <block wx:for="{{homeImage}}" wx:for-item="{{item}}" wx:for-index="{{index}}" wx:key="{{index}}">
+          <swiper-item bindtap="itemgoods">
+              <!-- <image :src='{{item}}'></image> -->
+              <image src='../image/demo1.jpg' class='item_image'></image>
+          </swiper-item>        
+        </block>
+    </swiper>
+    </view>
+
+    <!-- 新增商品 -->
+    <view class='home_add_goods'>
+          <view class='add_goods_title'>新增商品</view>
+          <view class='goods_list' bindtap='itemgoods'>
+              <image src="../image/demo1.jpg" class='item_goods_image'></image>
+              <view class='item_goods_list'>
+                  <view class='item_goods'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
+                  <view class='item_goods_money_munber'>
+                      <view class='item_money'>￥339</view>
+                      <view class='item_munber'>
+                        <image src="../image/add.png" class='item_munber_image'></image>
+                      </view>
+                  </view>
+              </view>
+          </view>
+    </view>
+
+    <!-- 更多新增商品 -->
+    <view class='goods_more' bindtap='goodsmore'>
+          <view>查看更多</view>
+          <image src="../image/right_icon.png" class='item_icon'></image>
+    </view>
+
+    <!-- 热销商品 -->
+    <view class='good_goods_box'>
+        <view class='goods_title'>热销商品</view>
+        <view class='item_good_list'>
+              <view class='item_good_goods' bindtap='itemgoods'>
+                    <image src='../image/demo1.jpg' class='item_gooods_image'></image>
+                    <view class='item_goods_text'>D60-H31A60升电热水器WIFI智能远程控制高温保养</view>
+                    <view class='item_goods_action'>
+                        <view class='item_money'>￥339</view>
+                        <image src='../image/add.png' class='item_goods_icon'></image>
+                    </view>
+              </view>
+              <view class='item_good_goods'>
+                    <image src='../image/demo1.jpg' class='item_gooods_image'></image>
+                    <view class='item_goods_text'>D60-H31A60升电热水器WIFI智能远程控制高温保养</view>
+                    <view class='item_goods_action'>
+                        <view class='item_money'>￥339</view>
+                        <image src='../image/add.png' class='item_goods_icon'></image>
+                    </view>
+              </view>
+              <view class='item_good_goods'>
+                    <image src='../image/demo1.jpg' class='item_gooods_image'></image>
+                    <view class='item_goods_text'>D60-H31A60升电热水器WIFI智能远程控制高温保养</view>
+                    <view class='item_goods_action'>
+                        <view class='item_money'>￥339</view>
+                        <image src='../image/add.png' class='item_goods_icon'></image>
+                    </view>
+              </view>
+        </view>
+    </view>
+</view>

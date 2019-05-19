@@ -1,0 +1,43 @@
+.addre_box{
+
+}
+.addre_input_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_input{
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+}
+.item_input_text{
+  width: 110rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.item_icon{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+}
+.item_input_width{
+  width: calc(100% - 110rpx);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+/* 保存按钮 */
+.save_btn{
+  width: 95%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  margin: 80rpx auto;
+  font-size: 28rpx;
+  color: #fff;
+  background-color: #FFA319;
+}

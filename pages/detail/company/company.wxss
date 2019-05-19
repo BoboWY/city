@@ -1,0 +1,32 @@
+.company_box{
+
+}
+.company_list_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_company{
+  height:170rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 0rpx 12rpx 0rpx rgba(204,204,204,0.3);
+  margin-top: 30rpx;
+  padding: 31rpx;
+}
+.item_company_title{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26rpx;
+}
+.company_title{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.company_time{
+  font-size: 24rpx;
+  color: #888888;
+}
+.company_text{
+  font-size: 28rpx;
+  color: #666666;
+}

@@ -1,0 +1,24 @@
+<view class="information_box">
+    <view class='item_information_list'>
+        <view class='item_info'>
+              <view class='item_info_left'>
+                <image src="../../image/item_info1.png" class='item_icon'></image>
+                <view class='item_text'>
+                      <view class='item_text_title'>政策发文</view>
+                      <view class='item_text_detail'>公司员工手册</view>
+                </view>
+              </view>
+              <view class='item_time'>10:00</view>
+        </view>
+        <view class='item_info' bindtap='companyBind'>
+              <view class='item_info_left'>
+                <image src="../../image/item_info2.png"  class='item_icon'></image>
+                <view class='item_text'>
+                      <view class='item_text_title'>公司制度</view>
+                      <view class='item_text_detail'>公司员工手册</view>
+                </view>
+              </view>
+              <view class='item_time'>10:00</view>
+        </view>
+    </view>
+</view>

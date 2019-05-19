@@ -1,0 +1,43 @@
+.star_class_box{
+
+}
+
+.ste_up_box{
+
+}
+
+.item_star_box{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item_star_title{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 28rpx;
+}
+.item_input_box{
+  height: 88rpx;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+}
+.item_input{
+  padding-top: 15rpx;
+}
+.item_input_place{
+  font-size: 28rpx;
+}
+
+/* 确定按钮 */
+.ste_up_btn{
+  width: 95%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  margin: 30rpx auto;
+  background-color: #FFA319;
+  color: #fff;
+  font-size: 36rpx;
+  border-radius: 6rpx;
+}

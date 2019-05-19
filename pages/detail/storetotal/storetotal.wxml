@@ -1,0 +1,23 @@
+<view class="store_total_box">
+<!-- 门店标题 -->
+  <view class='item_store_title'>
+      <view class='store_title_left'>总进货额:10000000</view>
+      <view class='store_title_right'>总进货量:56478</view>
+  </view>
+  <!-- 门店信息 -->
+  <view class='store_information'>
+    <view class='item_store'>门店名</view>
+    <view class='item_store'>购买额(元)</view>
+    <view class='item_store'>进货量</view>
+  </view>
+  <!-- 门店列表信息 -->
+  <view class='store_list_box'>
+      <view class='item_store_list'>
+          <view class='item_store_box' wx:for="{{itemstore}}" wx:key="{{index}}">
+              <view class='store_name'>{{item.name}}</view>
+              <view class='store_money'>{{item.money}}</view>
+              <view class='store_munber'>{{item.munber}}</view>
+          </view>
+      </view>
+  </view>
+</view>

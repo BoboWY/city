@@ -1,0 +1,37 @@
+<view class="sale_box">
+<!-- 售后导航栏 -->
+    <view class="item_sale_nav">
+        <view class="{{active === item.id?'item_nav item_nav_active':'item_nav'}}" data-id="{{item.id}}" bindtap='navBind'
+         wx:for="{{navList}}" wx:key="{{index}}">{{item.text}}</view>
+    </view>
+    <!-- 售后商品列表 -->
+    <view class='sale_goods_list'>
+        <view class='sale_btn'>
+            <view class='item_sale_btn'>售后反馈</view>
+            <view class='item_out_btn'>退换货申请</view>
+        </view>
+        <!-- 售后商品 -->
+        <view class='sale_goods'>
+              <view class='item_sale_goods' wx:for="{{itemgoods}}" wx:key="{{index}}" bindtap='saleDetail'>
+                <view class='item_order_munber'>
+                    <view class='order_munber'>订单编号：{{item.ordermunber}}</view>
+                    <view class='order_active'>{{item.active}}</view>
+                </view>
+                <view class='item_order_goods' wx:for="{{item.goods}}" wx:for-item="item2" wx:for-index="index2" wx:key="{{index2}}">
+                    <image src='{{item2.imageurl}}' class='item_goods'></image>
+                    <view class='item_order_goods_detail'>
+                        <view class='goods_text'>{{item2.text}}</view>
+                        <view class='goods_munber'>
+                              <view class='money'>￥{{item2.money}}</view>
+                              <view class='munber'>x{{item2.munber}}</view>
+                        </view>
+                    </view>                
+                </view>              
+              </view>        
+        </view>
+    </view>
+    <!-- 售后反馈 -->
+    <view  class='nav_sale_btn'>
+          <view class='sale_text_btn' bindtap='saleBind'>售后反馈</view>
+    </view>
+</view>

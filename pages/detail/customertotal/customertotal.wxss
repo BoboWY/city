@@ -1,0 +1,36 @@
+.customer_total_box{
+
+}
+.cusyomer_title{
+  width: 95%;
+  margin: 0 auto;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+}
+.item_title{
+  width: 80rpx;
+  position: relative;
+  font-size: 28rpx;
+  color: #999999;
+}
+.item_title:nth-of-type(1){
+  margin-right: 120rpx;
+}
+.item_title::after{
+  content: "";
+  position: absolute;
+  border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-top: 20rpx solid #1B1B1B;
+  top: 14rpx;
+}
+/* Echart图表 */
+.echart_list_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_line_box{
+  height: 850rpx;
+}

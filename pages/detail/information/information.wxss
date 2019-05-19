@@ -1,0 +1,39 @@
+.information_box{
+
+}
+.item_information_list{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_info{
+  height: 160rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+.item_info_left{
+  display: flex;
+  align-items: center;
+}
+.item_icon{
+  width: 108rpx;
+  height: 108rpx;
+  vertical-align: middle;
+}
+.item_text{
+  line-height: 80rpx;
+}
+.item_text_title{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.item_text_detail{
+  font-size: 28rpx;
+  color: #666666;
+}
+.item_time{
+  font-size: 24rpx;
+  color: #999999;
+}

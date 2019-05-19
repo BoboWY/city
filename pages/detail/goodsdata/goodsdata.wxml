@@ -1,0 +1,8 @@
+<view class="goods_data_box">
+  <view class='goods_list_box'>
+      <view class='item_goods' wx:for="{{itemgoods}}" wx:key="{{index}}" bindtap='dataBind' data-id="{{item.id}}"> 
+            <image src="../../image/demo1.jpg" class='item_icon'></image>
+            <view class='item_text'>{{item.text}}</view>
+      </view>
+  </view>
+</view>

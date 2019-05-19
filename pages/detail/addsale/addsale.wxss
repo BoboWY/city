@@ -1,0 +1,111 @@
+.add_sale_box{
+
+}
+.add_sale_list{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_add_sale{
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item_add_text{
+  width: 110rpx;
+  line-height: 88rpx;
+  margin-right: 71rpx;
+  font-size: 28rpx;
+  color: #333;
+
+}
+.item_input{
+  width: calc(100% - 110rpx - 71rpx);
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}
+.item_input_text{
+  font-size: 28rpx;
+}
+.item_icon{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+}
+
+/* 理由 */
+.reason_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.reason_title{
+  height: 88rpx;
+  line-height: 88rpx;
+  color: #333;
+  font-weight: bold;
+}
+.reason_input{
+  height: 300rpx;
+  border: 1rpx solid #E5E5E5;
+}
+
+/* 上传图片 */
+.image_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.image_title{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #E5E5E5;
+}
+.item_title{
+  color: #333;
+  font-weight: bold;
+}
+.item_text{
+  color: #D9D9D9;
+}
+.image_bind{
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  background-color: #D9D9D9;
+  color: #CCCCCC;
+  font-size: 130rpx;
+  vertical-align: middle;
+  margin: 42rpx 0;
+  border-radius: 6rpx;
+}
+/* 联系人信息 */
+.menber_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.menber_title{
+  height: 88rpx;
+  line-height: 88rpx;
+  color: #333;
+  font-weight: bold;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #E5E5E5;
+}
+/* 提交按钮 */
+.sumite_box{
+  height: 128rpx;
+  border-top: 1rpx solid #D9D9D9;
+}
+.item_sumit{
+  width: 95%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background-color: #FFA319;
+  color: #fff;
+  font-size: 32rpx;
+  margin: 20rpx auto;
+}

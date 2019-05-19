@@ -1,0 +1,40 @@
+<view  class='item_goods_box'>
+    <view class='home_image'>
+    <swiper indicator-dots indicator-color="#808080" indicator-active-color="#fff" autoplay circular>
+        <block wx:for="{{homeImage}}" wx:for-item="{{item}}" wx:for-index="{{index}}" wx:key="{{index}}">
+          <swiper-item>
+              <!-- <image :src='{{item}}'></image> -->
+              <image src='../../image/demo1.jpg' class='item_image'></image>
+          </swiper-item>        
+        </block>
+    </swiper>
+    </view>
+    <!-- 商品描述 -->
+    <view class='item_goods_detail'>
+        <view class='goods_detail'>D60-H3160升电热水器WIFI智能远程控制高温保养电热水器WIFI智能远程控制高温保养</view>
+        <view class='money_munber'>
+            <view class='item_money'>￥339</view>
+            <view class='item_munber'>销量200</view>
+        </view>
+    </view>
+
+    <view  class='item_goods_image'>
+        <view class='goods_title'>商品详情</view>
+        <image src="../../image/demo2.jpg" class='goods_image'></image>
+      </view>
+    <!-- 底部导航栏 -->
+    <view class='footer_box'>
+          <view class='item_footer'>
+                <view class='item_home_text' bindtap='homeBind'>
+                    <image src='../../image/icon/home1.png' class='item_footer_icon'></image>
+                    <view class='item_footer_text'>首页</view>
+                </view>
+                <view class='item_home_text' bindtap='shopBind'>
+                    <image src='../../image/icon/shop1.png' class='item_footer_icon'></image>
+                    <view class='item_footer_text'>购物车</view>
+                </view>
+                <view class='item_shop_btn'>加入购物车</view>
+                <view class='item_buy_btn' bindtap='paygoods'>立即购买</view>
+          </view>
+    </view>
+</view>

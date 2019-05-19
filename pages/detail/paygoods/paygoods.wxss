@@ -1,0 +1,206 @@
+.pay_goods_box{
+
+}
+.addre_box{
+  width: 95%;
+  height: 200rpx;
+  margin: 0 auto;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(242, 242, 242, 0.5);
+  box-shadow:0px 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addre_left_box{
+  margin-left: 30rpx;
+}
+
+.user_name{
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.user_phone{
+  margin-left: 24rpx;
+}
+.item_addre{
+  height: 76rpx;
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+.item_icon{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+
+/* 商品列表 */
+.goods_list_box{
+
+}
+.goods_list{
+  margin-top: 32rpx;
+}
+
+.item_goods{
+  width: 95%;
+  height: 220rpx;
+  margin: 0 auto 32rpx auto;
+  display: flex;
+  justify-content: space-between;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(242, 242, 242, 0.5);
+  box-shadow:0px 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius:6rpx;
+}
+.item_goods_image{
+  width: 220rpx;
+  height: 220rpx;
+  vertical-align: middle;
+}
+.item_goods_detail{
+  margin: 26rpx 35rpx;
+}
+
+.item_goods_text{
+  color: #333333;
+  font-size: 28rpx;
+}
+
+.item_money_munber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36rpx;
+}
+
+.item_money{
+  font-size: 32rpx;
+  color: #1A1A1A;
+  font-weight: bold;
+}
+.item_munber{
+  display: flex;
+  border: 1rpx solid #D9D9D9;
+}
+
+.remove_munber,.munber_info,.add_munber{
+  width: 48rpx;
+  height: 44rpx;
+  text-align: center;
+  line-height: 44rpx;
+  font-size: 28rpx;
+}
+.munber_info{
+  border-left: 1rpx solid #D9D9D9;
+  border-right:  1rpx solid #D9D9D9;
+}
+/* .munber_color{
+  background-color: #F2F2F2;
+} */
+/* 订单信息 */
+.order_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.order_title{
+  line-height: 98rpx;
+  font-size: 36rpx;
+  color: #1A1A1A;
+  font-weight: bold;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.order_list_box{
+}
+
+.item_mode{
+  height: 49rpx;
+  line-height: 49rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.mode_text{
+  color: #666666;
+}
+.mode_money{
+  color: #333333;
+}
+.index_3{
+  color: #FFA319;
+}
+.index_4{
+  color: #333333;
+  font-weight: bold;
+}
+.font_4{
+  font-size: 32rpx;
+}
+
+/* 支付方式 */
+.pay_mode{
+  width: 95%;
+  margin: 0 auto;
+}
+.pay_title{
+  line-height: 98rpx;
+  font-size: 36rpx;
+  color: #1A1A1A;
+  font-weight: bold;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+
+.pay_mode_list{
+
+}
+
+.item_pay{
+  height: 49rpx;
+  line-height: 49rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.pay_text{
+  color: #333333;
+}
+.pay_true{
+  width: 36rpx;
+  height: 36rpx;
+  margin-top: 6rpx;
+  border-radius: 50%;
+  border: 1rpx solid #B3B3B3;
+  box-sizing: border-box;
+}
+.border_on{
+  border: none;
+}
+
+/* 提价订单 */
+.nav_pay_box{
+
+}
+.pay_box{
+  display: flex;
+  height: 98rpx;
+  line-height: 98rpx;
+  border-top: 1rpx solid #EEEEEE;
+}
+.pay_information{
+  width: calc(100% - 200rpx);
+  font-size: 28rpx;
+  font-weight: bold;
+  padding-left: 38rpx;
+}
+
+.item_pay_mode{
+  width: 200rpx;
+  text-align: center;
+  background-color: #FFA319;
+  color: #fff;
+  font-size: 28rpx;
+}

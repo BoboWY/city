@@ -1,0 +1,97 @@
+<view class="order_detail_box">
+    <view class='order_detail'>
+    <!-- 订单状态 -->
+          <view class='order_title'> 
+              <view class='item_title'>订单{{activetitle[active]}}</view>
+              <view class='item_text'>您的订单已审核，即将发货</view>
+          </view>
+          <!-- 商品信息 -->
+          <view class='goods_detail'>
+                <view class='item_goods_title'>
+                    <view class='item_title'>商品信息</view>
+                    <view class='item_total'>共两件商品</view>
+                </view>
+                <!-- 商品列表 -->
+                <view class='item_goods_list'>
+                    <image src='../../image/demo1.jpg' class='item_goods'></image>
+                    <view class='item_order_goods_detail'>
+                        <view class='goods_text'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
+                        <view class='goods_munber'>
+                              <view class='money'>￥339</view>
+                              <view class='munber'>x1</view>
+                        </view>
+                    </view> 
+                </view>
+          </view>
+          <!-- 收货地址 -->
+          <view class='addre_goods_box'>
+              <view class='item_title'>收货地址</view>
+              <view class='item_addre_box'>
+                  <view class='user_name'>
+                      <text>波波</text>
+                      <text class='user_phone'>18978719770</text>
+                  </view>
+                  <view class='item_addre'>广东省广州市天河区我是详细地址我详细地址我是详细地址</view>              
+              </view>
+          </view>
+          <!-- 基本信息 -->
+          <view class='user_information'>
+              <view class='item_title1'>基本信息</view>    
+              <view class='item_user_information'>
+                  <view class='item_user'>
+                      <view class='item_info'>订单号</view>
+                      <view class='item_order'>18684643153897<text class='copy'>复制</text></view>
+                  </view> 
+                  <view class='item_user'>
+                      <view class='item_info'>下单时间</view>
+                      <view class='item_order'>2019.04.26 23:13:00</view>
+                  </view>              
+                  <view class='item_user'>
+                      <view class='item_info'>订单状态</view>
+                      <view class='item_order'>{{activetitle[active]}}</view>
+                  </view>                           
+              </view>      
+          </view>
+          <!-- 订单信息 -->
+          <view class='order_informatiom'>
+              <view class='item_title1'>订单信息</view> 
+              <view class='item_order_list'>
+                  <view class='item_user'>
+                      <view class='item_info'>商品金额</view>
+                      <view class='item_order'>￥600.00</view>
+                  </view>
+                  <view class='item_user'>
+                      <view class='item_info'>运费</view>
+                      <view class='item_order'>￥10.00</view>
+                  </view>              
+                  <view class='item_user'>
+                      <view class='item_info'>合计</view>
+                      <view class='item_order'>￥610.00</view>
+                  </view>              
+                  <view class='item_user'>
+                      <view class='item_info'>折扣优惠</view>
+                      <view class='item_order item_order_discount'>-￥100.00</view>
+                  </view>              
+                  <view class='item_user'>
+                      <view class='item_info'>实付款</view>
+                      <view class='item_order item_order_money'>￥510.00</view>
+                  </view>              
+                  <view class='item_user'>
+                      <view class='item_info'>支付方式</view>
+                      <view class='item_order'>线下支付</view>
+                  </view>                            
+              </view>         
+          </view>
+    </view>
+          <!-- 订单状态对应信息 -->
+          <view class='order_status'>
+                <view class='order_status_success' wx:if="{{active === 3}}">
+                    <view class='order_logistics'>查看物流</view>
+                    <view class='order_success'>确认收货</view>                
+                </view>
+                <view class='order_status_success' wx:if="{{active === 4}}">
+                    <view class='order_logistics'>查看物流</view>
+                    <view class='order_remove'>删除订单</view>                
+                </view>
+          </view>
+</view>

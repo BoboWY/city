@@ -1,0 +1,123 @@
+.add_sale_goods{
+
+}
+
+.sale_goods_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_cunstore{
+
+}
+.item_title{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1rpx solid #eee;
+}
+.item_cunstore_list{
+  
+}
+.item_add_sale{
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item_add_text{
+  width: 110rpx;
+  line-height: 88rpx;
+  margin-right: 71rpx;
+  font-size: 28rpx;
+  color: #333;
+
+}
+.item_input{
+  width: calc(100% - 110rpx - 71rpx);
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}
+.item_input_text{
+  font-size: 28rpx;
+}
+.item_icon{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+}
+
+/* 商品信息 */
+.item_goods_list_box{
+  margin-top: 36rpx;
+}
+.goods{
+  width: 95%;
+  height: 220rpx;
+  margin: 0 auto 32rpx auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(242, 242, 242, 0.5);
+  box-shadow:0px 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius:6rpx;
+}
+.item_goods_image{
+  width: 160rpx;
+  height: 160rpx;
+  vertical-align: middle;
+}
+.item_goods_detail{
+  margin: 26rpx 35rpx;
+}
+
+.item_goods_text{
+  color: #333333;
+  font-size: 28rpx;
+}
+
+.item_money_munber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36rpx;
+}
+
+.item_money{
+  font-size: 32rpx;
+  color: #1A1A1A;
+  font-weight: bold;
+}
+.item_munber{
+  display: flex;
+  border: 1rpx solid #D9D9D9;
+}
+
+.remove_munber,.munber_info,.add_munber{
+  width: 48rpx;
+  height: 44rpx;
+  text-align: center;
+  line-height: 44rpx;
+  font-size: 28rpx;
+}
+.munber_info{
+  border-left: 1rpx solid #D9D9D9;
+  border-right:  1rpx solid #D9D9D9;
+}
+/* 确认出库 */
+.comfirm_btn,.select_btn{
+  width: 95%;
+  margin: 0 auto;
+}
+.btn_text,.select_goods{
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #FFA319;
+  border-radius: 6rpx;
+}

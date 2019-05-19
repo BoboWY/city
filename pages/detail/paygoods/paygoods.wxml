@@ -1,0 +1,72 @@
+<view class='pay_goods_box'>
+<!-- 地址模块 -->
+    <view class='addre_box'>
+          <view class='addre_left_box'>
+                <view class='user_name'>
+                      <text>波波</text>
+                      <text class='user_phone'>18978719770</text>
+                </view>
+                <view class='item_addre'>广东省广州市天河区我是详细地址我详细地址我是详细地址</view>
+          </view>
+          <image src='../../image/right_icon.png' class='item_icon'></image>
+    </view>
+<!-- 商品模块 -->
+<view class='goods_list_box'>
+      <view class='goods_list'>
+            <view class='item_goods' wx:for="{{itemgoods}}" wx:key="{{index}}">
+                <image src="../../image/demo1.jpg" class='item_goods_image'></image>
+                <view class='item_goods_detail'>
+                      <view class='item_goods_text'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
+                      <view class='item_money_munber'>
+                          <view class='item_money'>￥339</view>   
+                          <view class='item_munber'>
+                              <view class="{{item.munber === 1?'remove_munber':'remove_munber munber_color'}}"
+                               bindtap='itemremove' data-index='{{index}}'>-</view>
+                              <view class='munber_info'>{{item.munber}}</view>
+                              <view class='add_munber  munber_color' bindtap='itemadd' data-index='{{index}}'>+</view>                          
+                          </view>                   
+                      </view>
+                </view>            
+            </view>      
+      </view>
+</view>
+<!-- 订单信息 -->
+<view class='order_box'>
+    <view class='order_title'>订单信息</view>
+    <view class='order_list_box'>
+        <view class="item_mode" wx:for="{{mode}}" wx:key="{{index}}">
+            <view class="{{index === 4?'index_4':'mode_text'}}">{{item.text}}</view>
+            <view class="{{index === 3?'index_3':index === 4?'font_4':'mode_money'}}">{{index ===3?'-':''}}￥{{item.money}}</view>        
+        </view>    
+    </view>
+</view>
+<!-- 支付方式 -->
+<view class='pay_mode'>
+    <view class='pay_title'>支付方式</view>
+    <view class="pay_mode_list">
+        <view class='item_pay'>
+            <view class='pay_text'>线下支付</view>
+            <view class="{{payoutline?'pay_true border_on':'pay_true'}}" bindtap='paymode'>
+              <icon color='#FFA319' type='success' size='16' wx:if="{{payoutline}}" ></icon>
+            </view>
+        </view>
+        <view class='item_pay'>
+            <view class='pay_text'>线上支付</view>
+            <view class="{{payonline?'pay_true border_on':'pay_true'}}" bindtap='paymodeline'>
+              <icon color='#FFA319' type='success' size='16' wx:if="{{payonline}}"></icon>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 购买支付 -->
+<view class='nav_pay_box'>
+      <view class='pay_box'>
+            <view  class='pay_information'>
+                <text>实付款:</text>
+                <text>￥510.00</text>
+            </view>
+            <view class='item_pay_mode'>提交订单</view>
+      </view>
+</view>
+</view>

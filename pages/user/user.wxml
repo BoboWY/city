@@ -1,0 +1,35 @@
+<view class='user_box'>
+      <!-- 用户信息 -->
+      <view class='user_title_box'>
+            <view class='item_user_title'>
+                <image src="../image/demo1.jpg" class='user_round'></image>
+                <view class='user_info'>
+                      <view class='user_info_text'>波波(门店)</view>
+                      <view class='item_icon_box' bindtap='starclass'>
+                          <image src="../image/light.png" class='item_icon'></image>
+                          <image src="../image/light.png" class='item_icon'></image>
+                          <image src="../image/light.png" class='item_icon'></image>
+                          <image src="../image/light.png" class='item_icon'></image>
+                          <image src="../image/light.png" class='item_icon'></image>
+                      </view>
+                </view>
+            </view>
+
+            <view class='item_user_information' bindtap='information'>消息(2)</view>
+      </view>
+      <!-- 列表项 -->
+      <view class='user_list_box'>
+            <view class='item_list' wx:for="{{navList}}" data-id="{{item.id}}" wx:key="{{index}}" bindtap='navListBind'>
+                  <view class='left_info'>
+                      <image src="{{item.icon}}" class='item_info_icon'></image>
+                      <view class='item_info_text'>{{item.text}}</view>
+                  </view>
+                  <view class='right_info'>
+                        <image src="../image/right_icon.png" class='right_icon'></image>
+                  </view>
+            </view>      
+      </view>
+
+      <!-- 退出登录 -->
+      <!-- <view class='login_out'>退出账号</view> -->
+</view>

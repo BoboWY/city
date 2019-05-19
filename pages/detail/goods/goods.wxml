@@ -1,0 +1,24 @@
+<view class="goods_box">
+    <view class='item_goods_list'>
+          <view class='item_goods'>
+              <view class='item_goods_name'>格力电器</view>
+              <view class='item_goods_munber'>库存200件</view>
+          </view>
+          <view class='item_goods'>
+              <view class='item_goods_name'>小米音箱</view>
+              <view class='item_goods_munber'>库存200件</view>
+          </view>
+          <view class='item_goods'>
+              <view class='item_goods_name'>美的空调</view>
+              <view class='item_goods_munber'>库存200件</view>
+          </view>
+          <view class='item_goods'>
+              <view class='item_goods_name'>家用电器</view>
+              <view class='item_goods_munber'>库存200件</view>
+          </view>
+          <view class='item_goods'>
+              <view class='item_goods_name'>厨房电器</view>
+              <view class='item_goods_munber'>库存200件</view>
+          </view>
+    </view>
+</view>

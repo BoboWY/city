@@ -1,0 +1,22 @@
+.goods_box{
+
+}
+.item_goods_list{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_goods{
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+.item_goods_name{
+  font-size: 28rpx;
+  color: #999999;
+}
+.item_goods_munber{
+  font-size: 28rpx;
+  color: #333333;
+}

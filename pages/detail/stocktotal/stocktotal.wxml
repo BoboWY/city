@@ -1,0 +1,24 @@
+<view class="stock_total_box">
+<!-- 搜索栏 -->
+  <view class='item_input_box'>
+    <view class='input_search'>
+        <input class='item_input' placeholder='输入旗下名称搜索' placeholder-class='item_input_size'></input>
+    </view>
+    <view class='serach_btn'>搜索</view>
+  </view>
+  <!-- 标题 -->
+  <view class='item_title_box'>
+      <view class='china_name'>全国</view>
+  </view>
+  <!-- 库存列表 -->
+  <view class='stock_list_box'>
+      <view class='item_stock_box' wx:for="{{itemgoods}}" wx:key="{{index}}">
+          <view class='item_name'>{{item.name}}</view>
+          <view class='item_list'>
+              <view class='total'>总库存{{item.total}}</view>
+              <view class='sale'>销售{{item.sale}}</view>
+              <view class='stock'>库存{{item.stock}}</view>
+          </view>
+      </view>
+  </view>
+</view>

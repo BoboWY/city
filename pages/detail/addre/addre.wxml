@@ -1,0 +1,31 @@
+<view class="addre_box">
+      <view class='addre_input_box'>
+          <view class='item_input'>
+              <view class='item_input_text'>收件人</view>
+              <view class='item_input_width'>
+                  <input></input>
+              </view>
+          </view>
+          <view class='item_input'>
+              <view class='item_input_text'>联系电话</view>
+              <view class='item_input_width'>
+                  <input></input>
+              </view>
+          </view>
+          <view class='item_input'>
+              <view class='item_input_text'>所在地区</view>
+              <view class='item_input_width'>
+                  <input></input>
+                  <image src="../../image/right_icon.png" class='item_icon'></image>
+              </view>
+          </view>
+          <view class='item_input'>
+              <view class='item_input_text'>详细地址</view>
+              <view class='item_input_width'>
+                  <input></input>
+              </view>
+          </view>
+      </view>
+      <!-- 保存地址按钮 -->
+      <view class='save_btn'>保存地址</view>
+</view>

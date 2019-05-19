@@ -1,0 +1,32 @@
+.goods_data_box{
+
+}
+
+.goods_list_box{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item_goods{
+  width: 330rpx;
+  height: 340rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 0rpx 20rpx 0rpx rgba(204,204,204,0.3);
+  border-radius:6rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.item_icon{
+  width: 54rpx;
+  height: 54rpx;
+}
+.item_text{
+  margin-top: 35rpx;
+  font-size: 28rpx;
+  color: #333;
+}

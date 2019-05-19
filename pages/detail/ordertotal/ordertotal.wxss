@@ -1,0 +1,56 @@
+.order_total_box{
+
+}
+.item_order_list{
+  width: 95%;
+  margin: 30rpx auto;
+}
+.item_order{
+  display: flex;
+  justify-content: space-around;
+  height: 320rpx;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(242, 242, 242, 0.5);
+  box-shadow:0rpx 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius:6rpx;
+}
+/* 左边Echart */
+.item_order_left{
+  width: 320rpx;
+  height: 320rpx;
+}
+/* 右边文字样式 */
+.item_order_right{
+  margin-right: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.item_round_top,.item_round_bottom{
+  line-height: 60rpx;
+  font-size:32rpx;
+  position: relative;
+}
+.item_round_top::before,.item_round_bottom::before{
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  left: -35rpx;
+  top: 20rpx;
+  background-color: #F2F2F2;
+}
+.item_round_bottom::before{
+  background-color: #FFA319;
+}
+.item_munber{
+  color: #FFA319;
+  font-size: 32rpx;
+}
+.ec-canvas {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,16 @@
+<view class="express_box">
+    <view class='item_express_box'>
+        <view class='item_express'>
+              <view class='item_express_text'>联系人</view>
+              <view class='item_info'>波波</view>
+        </view>
+        <view class='item_express'>
+              <view class='item_express_text'>公司电话</view>
+              <view class='item_info'>020-135523335</view>
+        </view>
+        <view class='item_express'>
+              <view class='item_express_text'>地址</view>
+              <view class='item_info'>广东省广州市番禺区汉溪长隆奥园城市天地</view>
+        </view>
+    </view>
+</view>

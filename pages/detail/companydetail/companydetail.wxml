@@ -1,0 +1,21 @@
+<view class="company_detail_box">
+      <view class='item_company_box'>
+        <view class='header_box'>
+          <view class='item_title'>公司员工手册</view>
+          <view class='item_time'>2019-02-20</view>        
+        </view>
+        <view class="context_box">
+            <view class='item_context'>各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...</view>
+            <view class='item_context'>各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...各级管理人员必须牢固树立一切为公司着想的思...</view>
+        </view>
+        <view class='enclosure_box'>
+            <view class='enclosure_title'>
+              <text class='enclosure_title_text'>附件</text>
+              <text class='item_icon' bindtap='filesave'>+</text>
+            </view>
+            <view class='enclosure_list'>
+
+            </view>
+        </view>
+      </view>
+</view>

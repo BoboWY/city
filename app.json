@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/class/class",
+    "pages/shop/shop",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/detail/addgoods/addgoods",
+    "pages/detail/itemgoods/itemgoods",
+    "pages/detail/paygoods/paygoods",
+    "pages/detail/orderdetail/orderdetail",
+    "pages/detail/sale/sale",
+    "pages/detail/goods/goods",
+    "pages/detail/addre/addre",
+    "pages/detail/stock/stock",
+    "pages/detail/express/express",
+    "pages/detail/loginexpress/loginexpress",
+    "pages/detail/information/information",
+    "pages/detail/company/company",
+    "pages/detail/companydetail/companydetail",
+    "pages/detail/addsale/addsale",
+    "pages/detail/saledetail/saledetail",
+    "pages/detail/salegoods/salegoods",
+    "pages/detail/addsalegoods/addsalegoods",
+    "pages/detail/starclass/starclass",
+    "pages/detail/goodsdata/goodsdata",
+    "pages/detail/region/region",
+    "pages/detail/ordertotal/ordertotal",
+    "pages/detail/goodstotal/goodstotal",
+    "pages/detail/stocktotal/stocktotal",
+    "pages/detail/customertotal/customertotal",
+    "pages/detail/storetotal/storetotal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "万家乐商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#FFA319",
+    "list": [
+      {
+        "iconPath": "./pages/image/icon/home1.png",
+        "selectedIconPath": "./pages/image/icon/home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "./pages/image/icon/class1.png",
+        "selectedIconPath": "./pages/image/icon/class.png",
+        "pagePath": "pages/class/class",
+        "text": "分类"
+      },
+      {
+        "iconPath": "./pages/image/icon/order1.png",
+        "selectedIconPath": "./pages/image/icon/order.png",
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "iconPath": "./pages/image/icon/shop1.png",
+        "selectedIconPath": "./pages/image/icon/shop.png",
+        "pagePath": "pages/shop/shop",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "./pages/image/icon/user1.png",
+        "selectedIconPath": "./pages/image/icon/user.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

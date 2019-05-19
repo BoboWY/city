@@ -1,0 +1,48 @@
+.goods_total_box{
+
+}
+.goods_title{
+  border-bottom: 1rpx solid #eee;
+}
+.item_title{
+  padding-left: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #999999;
+  position: relative;
+}
+.item_title::after{
+  content: "";
+  position: absolute;
+  border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-top: 20rpx solid #1B1B1B;
+  top: 20rpx;
+}
+/* Ecahrt图表 */
+.region_echart_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.regin_information_box{
+  height: 850rpx;
+}
+/* 显示更多 */
+.show_btn{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 30rpx;
+  color: #999999;
+  font-size: 28rpx;
+  position: relative;
+}
+.show_btn::after{
+  content: "";
+  width: 0;
+  position: absolute;
+  top: 25rpx;
+  border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-top: 20rpx solid #999999;
+}

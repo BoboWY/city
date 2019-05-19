@@ -1,0 +1,11 @@
+<view class="company_box">
+    <view class='company_list_box'>
+          <view class='item_company' bindtap='companydetail'>
+              <view class='item_company_title'>
+                  <view class='company_title'>公司员工手册</view>
+                  <view class='company_time'>2019-02-20</view>
+              </view>
+              <view class="company_text">各级管理人员必须牢固树立一切为公司着想的思...</view>
+          </view>
+    </view>
+</view>

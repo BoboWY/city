@@ -1,0 +1,15 @@
+<view class="region_box">
+<!-- 标题信息 -->
+    <view class='region_title'>
+          <view class='company_name'>经销商</view>
+          <view class='china_name'>全国</view>
+    </view>
+    <!-- echart图表信息 -->
+    <view class='region_echart_box'>
+        <view class='regin_information_box'>
+          <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+        </view>
+    </view>
+    <!-- 显示更多 -->
+    <view class='show_btn'>显示更多</view>
+</view>

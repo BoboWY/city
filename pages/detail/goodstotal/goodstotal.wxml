@@ -1,0 +1,14 @@
+<view class="goods_total_box">
+<!-- 标题 -->
+  <view class='goods_title'>
+      <view class='item_title'>全国</view>
+  </view>
+    <!-- echart图表信息 -->
+    <view class='region_echart_box'>
+        <view class='regin_information_box'>
+          <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+        </view>
+    </view>
+    <!-- 显示更多 -->
+    <view class='show_btn'>显示更多</view>
+</view>

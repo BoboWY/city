@@ -1,0 +1,32 @@
+<view class='order_box'>
+<!-- 导航栏 -->
+    <view class='order_list_nav'>
+        <view data-index="{{index}}" class="{{active === index?'item_nav_active':'item_nav'}}" wx:for="{{navList}}"
+         wx:key="{{index}}" bindtap='navBind'>{{item.text}}</view>
+    </view>
+    <!-- 订单列表 -->
+<view class='order_list_box'>
+    <view class='item_order_list'>
+          <view class='item_order' wx:for="{{itemgoods}}" wx:key="{{index}}">
+                <view class='item_order_munber'>
+                    <view class='order_munber'>订单编号：{{item.ordermunber}}</view>
+                    <view class='order_active'>{{item.active}}</view>
+                </view>
+                <view class='item_order_goods' wx:for="{{item.goods}}" wx:for-item="item2" wx:for-index="index2" wx:key="{{index2}}">
+                    <image src='{{item2.imageurl}}' class='item_goods'></image>
+                    <view class='item_order_goods_detail'>
+                        <view class='goods_text'>{{item2.text}}</view>
+                        <view class='goods_munber'>
+                              <view class='money'>￥{{item2.money}}</view>
+                              <view class='munber'>x{{item2.munber}}</view>
+                        </view>
+                    </view>                
+                </view>
+                <view class='goods_detail'>
+                    <view  class='goods_total'>共{{item.total}}件商品</view>
+                    <view class='goods_btn' bindtap='orderdetail'>查看详情</view>
+                </view>          
+          </view>
+    </view>
+</view>
+</view>

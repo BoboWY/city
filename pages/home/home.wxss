@@ -1,0 +1,135 @@
+.home_box{
+
+}
+.home_image{
+  width: 100%;
+  height: 150px;
+}
+.item_image{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.home_add_goods{
+  /* width: calc(100%-60rpx); */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.add_goods_title{
+  font-size: 34rpx;
+  margin: 30rpx 0;
+  color: #1A1A1A;
+}
+/* 商品列表 */
+.goods_list{
+  display: flex;
+  height: 220rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  border: 1rpx solid #fff;
+  border-radius: 6px;
+}
+
+.item_goods_image{
+  width: 220rpx;
+  height: 220rpx;
+  vertical-align: middle;  
+}
+
+.item_goods_list{
+  margin: 0 31rpx;
+}
+
+.item_goods{
+  margin: 28rpx 0;
+  height: 65rpx;
+  font-size: 28rpx;
+}
+.item_goods_money_munber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50rpx;
+}
+
+.item_money{
+  color: #1A1A1A;
+  font-size: 32rpx;
+}
+.item_munber{
+  width: 54rpx;
+  height: 54rpx;
+}
+.item_munber_image{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* 更多商品 */
+.goods_more{
+  width: 95%;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #D9D9D9;
+  border-radius: 6px;
+  color: #666666;
+  font-size: 32rpx;
+}
+
+.item_icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 24rpx;
+  vertical-align: middle;
+}
+
+/* 热销商品 */
+.good_goods_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.goods_title{
+  font-size: 34rpx;
+  margin: 30rpx 0;
+  color: #1A1A1A;
+}
+
+.item_good_list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* 单个商品样式 */
+.item_good_goods{
+  width: 336rpx;
+  margin-bottom: 18rpx;
+}
+.item_gooods_image{
+  width: 336rpx;
+  height: 336rpx;
+  vertical-align: middle;
+}
+.item_goods_text{
+  padding:0 20rpx;
+  margin:18rpx 0;
+  font-size: 28rpx;
+  color: #333333;
+}
+
+.item_goods_action{
+  height: 40rpx;
+  line-height: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx; 
+}
+.item_goods_icon{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;item_goods
+}

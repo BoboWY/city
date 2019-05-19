@@ -1,0 +1,20 @@
+<view class="star_class_box">
+    <!-- 设置星级 -->
+    <view class='ste_up_box' wx:if="{{status === 1}}">
+      <view class='item_star_box'>
+            <view class='item_star_title'>根据需要销售额度</view>
+            <view class='item_input_box'>
+                  <input class='item_input' type='number' placeholder='设置万元整' placeholder-class='item_input_place'></input>
+            </view>
+      </view>
+      <view class='ste_up_btn' bindtap='submit'>确定</view>
+    </view>
+    <!-- 星级列表信息 -->
+    <view class='star_list_box' wx:else>
+        <view class='item_star_list'>
+              <view class='item_star'>
+                  设置星级列表
+              </view>
+        </view>
+    </view>
+</view>

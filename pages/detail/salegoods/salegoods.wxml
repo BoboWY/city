@@ -1,0 +1,36 @@
+<view class="sale_goods_box">
+      <view class='item_sale_goods'>
+      <!-- 客户信息 -->
+          <view class='item_customer'>
+              <view class="item_tile">客户信息</view>
+              <view class='item_customer_detail'>
+                  <view class='item_left'>客户姓名</view>
+                  <view class='item_right'>波波</view>
+              </view>
+              <view class='item_customer_detail'>
+                  <view class='item_left'>电话号码</view>
+                  <view class='item_right'>18978719770</view>
+              </view>
+              <view class='item_customer_detail'>
+                  <view class='item_left'>地址</view>
+                  <view class='item_right'>广东省广州市天河区车陂南</view>
+              </view>
+          </view>
+          <!-- 商品信息 -->
+          <view class='item_goods'>
+              <view class="item_tile">商品信息</view>
+              <view class="item_goods_list">
+                  <view class='item_goods_detail'>
+                      <image src="../../image/demo1.jpg" class='item_goods_image'></image>
+                      <view class='item_goods_text'>
+                          <view class='goods_text'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
+                          <view class='goods_munber'>
+                                <view class='money'>￥339</view>
+                                <view class='munber'>x2</view>
+                          </view>
+                      </view>
+                  </view>
+              </view>
+          </view>
+      </view>
+</view>

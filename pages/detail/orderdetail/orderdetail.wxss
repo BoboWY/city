@@ -1,0 +1,153 @@
+.order_detail_box{
+
+}
+.order_detail{
+  width: 95%;
+  margin: 0 auto;
+}
+.order_title{
+
+}
+/* 总用标题样式 */
+.item_title{
+  height: 98rpx;
+  line-height: 98rpx;
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.item_text{
+  font-size: 28rpx;
+  color: #999999;
+}
+.goods_detail{
+
+}
+.item_goods_title{
+  display: flex;
+  justify-content: space-between;
+}
+.item_total{
+  color: #666666;
+  font-size: 28rpx;
+}
+.item_goods_list{
+  display: flex;
+  align-items: center;
+  margin: 36rpx 0;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius:6rpx
+}
+.item_goods{
+  width: 220rpx;
+  height: 220rpx;
+  vertical-align: middle;
+}
+.item_order_goods_detail{
+  margin:0 14rpx;
+} 
+.goods_text{
+  color: #333333;
+  font-size: 28rpx;
+}
+.goods_munber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49rpx;
+}
+.money{
+  font-weight: bold;
+}
+/* 收货地址 */
+.addre_goods_box{
+
+}
+.item_addre_box{
+  height: 128rpx;
+  padding: 36rpx;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(242, 242, 242, 0.5);
+  box-shadow:0px 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius: 10rpx;
+}
+.user_name{
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.user_phone{
+  margin-left: 24rpx;
+}
+.item_addre{
+  height: 76rpx;
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+/* 基本信息 */
+.user_information{
+
+} 
+.item_title1{
+  height: 98rpx;
+  line-height: 98rpx;
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+
+.item_user{
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.item_info{
+  font-size: 28rpx;
+  color: #999999;
+}
+.item_order{
+  color: #33312E;
+  font-size: 28rpx;
+}
+.item_order_list{
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.item_order_discount{
+  color: #FFA319;
+}
+.item_order_money{
+  font-weight: bold;
+  color: #333333;
+}
+.copy{
+  padding-left: 33rpx;
+  color: #FFA319;
+}
+/* 订单状态对应模块 */
+.order_status{
+
+}
+.order_status_success{
+  height: 128rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.order_logistics,.order_success,.order_remove{
+  width: 330rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+.order_logistics,.order_remove{
+  border:1rpx solid #EEEEEE;
+  color: #999999;
+}
+.order_success{
+  background-color: #FFA319;
+  color: #ffffff;
+}

@@ -1,0 +1,16 @@
+<view class="stock_box">
+<!-- 销售库存 -->
+    <view class='item_stock_list'>
+        <view class='item_stock'>
+            <view class='user_name'>
+                <text class='item_name'>程旭</text>
+                <text>18852441124</text>
+            </view>
+            <view class='addre_info'>广东省广州市天河区车陂南小学</view>
+        </view>
+    </view>
+    <!-- 核销出库 -->
+    <view class='submite_box'>
+        <view class='item_submit_text'>核销出库</view>
+    </view>
+</view>

@@ -1,0 +1,40 @@
+<view class="shop_box">
+<!-- 购物车状态 -->
+    <view class='shop_status'>
+          <view class='item_shop_status'>完成</view>
+    </view>
+    <!-- 商品列表 -->
+    <view class='item_shop_list' wx:for="{{itemgoods}}" wx:key="{{index}}">
+        <view class="{{item.status?'item_icon border_no':'item_icon'}}" data-index="{{index}}" bindtap='itemstatus'>
+            <icon color='#FFA319' type='success' size='14' wx:if="{{item.status}}"></icon>
+        </view>
+        <image src="../image/demo1.jpg" class='item_goods_image'></image>
+        <view class='item_goods_detail'>
+            <view class='item_goods_text'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
+            <view class='item_money_munber'>
+              <view class='item_money'>￥339</view>   
+                  <view class='item_munber'>
+                    <view class="{{item.munber === 1?'remove_munber':'remove_munber munber_color'}}"
+                        bindtap='itemremove' data-index='{{index}}'>-</view>
+                    <view class='munber_info'>{{item.munber}}</view>
+                    <view class='add_munber  munber_color' bindtap='itemadd' data-index='{{index}}'>+</view>                          
+                </view>                   
+            </view>
+          </view>                    
+    </view>
+    <!-- 底部导航栏 -->
+    <view class='shop_nav_bottom'>
+          <view class='nav_information'>
+              <view class='nav_left'>
+                <view class="{{status?'item_total border_no':'item_total'}}" bindtap='statustotal'>
+                    <icon color='#FFA319' type='success' size='14' wx:if="{{status}}"></icon>
+                </view>
+                <view class='nav_left_text'>全选</view>
+              </view>
+              <view class='nav_right_box'>
+                  <view class='nav_text'>合计￥339</view>
+                  <view class='nav_btn'>结算(1)</view>
+              </view>                          
+          </view>
+    </view>
+</view>

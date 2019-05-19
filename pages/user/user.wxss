@@ -1,0 +1,90 @@
+.user_box{
+
+}
+
+.user_title_box{
+  height: 252rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFA319;
+}
+
+.item_user_title{
+  display: flex;
+}
+
+.user_round{
+  width: 120rpx;
+  height: 120rpx;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-left: 30rpx;
+}
+
+.user_info{
+  margin-left: 20rpx;
+}
+
+.user_info_text{
+  line-height: 60rpx;
+  font-size: 36rpx;
+  color: #fff;
+}
+.item_icon_box{
+  display: flex;
+}
+.item_icon{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.item_user_information{
+  width: 137rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  color: #FFA319;
+  border-radius: 100rpx 0 0 100rpx;
+  background-color: #fff;
+}
+
+/* 列表项 */
+.user_list_box{
+
+}
+
+.item_list{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1rpx solid #F2F2F2;
+  height: 120rpx;
+}
+
+.left_info{
+  display: flex;
+  align-items: center;
+}
+.item_info_icon{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+}
+.item_info_text{
+  font-size: 32rpx;
+  color: #333333;
+}
+.right_info{
+
+}
+.right_icon{
+  width: 54rpx;
+  height: 54rpx;
+  vertical-align: middle;
+
+}

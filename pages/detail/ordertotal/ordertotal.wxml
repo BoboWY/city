@@ -1,0 +1,19 @@
+<view class="order_total_box">
+    <view class='item_order_list'>
+        <view class='item_order'>
+              <view class='item_order_left'>
+                  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+              </view>
+              <view class='item_order_right'>
+                <view class='item_order_text'>
+                  <view class='item_round_top'>上月销售</view>
+                  <view class='item_munber'>10000</view>
+                </view>
+                <view class='item_order_text'>
+                  <view class='item_round_bottom'>上月销售</view>
+                  <view class='item_munber'>10000</view>
+                </view>
+              </view>
+        </view>
+    </view>
+</view>

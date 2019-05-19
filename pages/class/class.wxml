@@ -1,0 +1,28 @@
+<view class='class_box'>
+    <view class='search_box'>
+        <icon type='search' size="15" class='item_serach_icon'></icon>
+        <input placeholder='搜索商户名和齿科项目' placeholder-class='item_serach_text'></input>
+    </view>
+    <view class='item_class_box'>
+    <!--侧边栏菜单  -->
+      <view class='item_nav_left'>
+          <view class="{{active===item.id?'item_nav item_active_text':'item_nav'}}" 
+            wx:for="{{navtitle}}" wx:key="{{index}}" bindtap='activenav' data-id='{{item.id}}'>{{item.text}}</view>
+        </view>
+    <!-- 相对应商品  -->
+    <view class='item_goods_right'>
+        <view class='item_goods_detail' bindtap='goodsdetail'>
+              <image src="../image/demo1.jpg" class='item_goods_image'></image>
+              <view class='item_goods_list'>
+                  <view class='item_goods'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
+                  <view class='item_goods_money_munber'>
+                      <view class='item_money'>￥339</view>
+                      <view class='item_munber'>
+                        <image src="../image/add.png" class='item_munber_image'></image>
+                      </view>
+                  </view>
+              </view>
+        </view>
+    </view>
+    </view>
+</view>

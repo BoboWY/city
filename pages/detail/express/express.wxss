@@ -1,0 +1,23 @@
+.express_box{
+
+}
+.item_express_box{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_express{
+  height: 120rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+.item_express_text{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.item_info{
+  font-size: 28rpx;
+  color: #999999;
+}

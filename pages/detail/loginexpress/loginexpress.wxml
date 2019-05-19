@@ -1,0 +1,20 @@
+<view class="login_express_box">
+      <view class='login_box'>
+          <view class='header_title'>
+            <image src="../../image/login_title.png" class='item_title'></image>
+          </view>
+          <view class='user_login'>
+            <view class='item_login'>
+                <image src='../../image/user.png' class='item_login_icon'></image>
+                <input  type='number' value="{{user.phone}}"></input>
+                <image src="../../image/remove_icon.png" class='item_icon' wx:if="{{user.phone}}"></image>
+            </view>
+            <view class='item_login'>
+                <image src="../../image/pass.png" class='item_login_icon'></image>
+                <input password value="{{user.password}}"></input>
+                <image src="../../image/remove_icon.png" class='item_icon' wx:if="{{user.password}}"></image>
+            </view>
+          </view>
+      </view>
+      <view class='login_btn'>登录</view>
+</view>

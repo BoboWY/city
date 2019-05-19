@@ -1,0 +1,49 @@
+.stock_box{
+
+}
+.item_stock_list{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_stock{
+  height: 220rpx;
+  padding: 20rpx;
+  margin-top: 20rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius:10rpx;
+}
+.user_name{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.item_name{
+  margin-right: 20rpx;
+}
+.addre_info{
+  font-size: 28rpx;
+  color: #666;
+} 
+
+/* 核销出库 */
+.submite_box{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow:0rpx -5rpx 20rpx 0rpx rgba(204,204,204,0.2);
+  height: 120rpx;
+}
+.item_submit_text{
+  width: 95%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  margin: 16rpx auto;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #FFA319;
+  border-radius: 10rpx;
+}

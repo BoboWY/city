@@ -1,0 +1,69 @@
+.sale_goods_box{
+
+}
+.item_sale_goods{
+  width: 95%;
+  margin: 0 auto;
+}
+.item_customer{
+
+}
+.item_customer{
+
+}
+.item_tile,.item_customer_detail{
+  height: 88rpx;
+  line-height: 88rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.item_tile{
+  font-size: 36rpx;
+  color: #333;
+  font-weight: bold;
+}
+.item_customer_detail{
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+.item_left{
+  color: #999999;
+
+}
+.item_right{
+  color: #333;
+}
+
+/* 商品信息 */
+.item_goods{
+  margin-top: 20rpx;
+}
+
+.item_goods_list{
+
+}
+.item_goods_detail{
+  display: flex;
+  align-items: center;
+  margin: 36rpx 0;
+}
+.item_goods_image{
+  width: 220rpx;
+  height: 220rpx;
+  vertical-align: middle;
+}
+.item_goods_text{
+  margin-left: 14rpx;
+}
+.goods_text{
+  color: #333333;
+  font-size: 28rpx;
+}
+.goods_munber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49rpx;
+}
+.money{
+  font-weight: bold;
+}

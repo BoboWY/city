@@ -1,0 +1,55 @@
+.company_detail_box{
+
+}
+.item_company_box{
+  width: 95%;
+  margin: 0 auto;
+}
+/* 标题 */
+.header_box{
+  line-height: 88rpx;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+.item_title{
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.item_time{
+  font-size: 24rpx;
+  color: #888888;
+}
+/* 文本信息 */
+.context_box{
+  padding: 36rpx 0;
+}
+.item_context{
+  font-size: 28rpx;
+  color: #666666;
+}
+/* 附件 */
+.enclosure_box{
+
+}
+.enclosure_title{
+  height: 98rpx;
+  line-height: 98rpx;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+.item_icon{
+  margin-left: 8rpx;
+  margin-top: 24rpx;
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #999999;
+  color: #999999;
+}
+.enclosure_title_text{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}

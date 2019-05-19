@@ -1,0 +1,13 @@
+<view class="customer_total_box">
+<!-- 标题信息 -->
+  <view class='cusyomer_title'>
+      <view class='item_title'>经销商</view>
+      <view class='item_title'>按月</view>
+  </view>
+  <!-- Echart图表  -->
+  <view class='echart_list_box'>
+      <view class='item_line_box'>
+        <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+      </view>
+  </view>
+</view>
