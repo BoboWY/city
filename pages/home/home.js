@@ -8,6 +8,36 @@ Page({
     homeImage:[
       "pages/image/demo1.jpg",
       "pages/image/demo2.jpg"
+    ],
+    // 新品商品
+    itemgoodsdata:[
+      {
+        id: 1,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 339
+      }
+    ],
+    // 热销商品
+    saledata: [
+      {
+        id: 1,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 339
+      },
+      {
+        id: 2,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 339
+      },
+      {
+        id: 3,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 339
+      }
     ]
   },
 

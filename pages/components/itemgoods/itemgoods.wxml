@@ -1,0 +1,15 @@
+<view class="item_goods_box">
+<!-- 商品列表 -->
+  <view class='goods_list' data-id="{{item.id}}" bindtap='itemgoods' wx:for="{{goodsData}}" wx:key="{{index}}">
+      <image src="{{item.image}}" class='item_goods_image'></image>
+      <view class='item_goods_list'>
+        <view class='item_goods'>{{item.text}}</view>
+        <view class='item_goods_money_munber'>
+          <view class='item_money'>￥{{item.money}}</view>
+          <view class='item_munber'>
+              <image src="../../image/add.png" class='item_munber_image'></image>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

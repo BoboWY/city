@@ -8,26 +8,32 @@ Page({
     itemgoods:[
       {
         id:1,
+        image:"/pages/image/region.png",
         text:"区域分布"
       },
       {
         id: 2,
+        image: "/pages/image/goodstotal.png",
         text: "商品销售统计"
       },
       {
         id: 3,
+        image: "/pages/image/storetotal.png",
         text: "门店进货统计"
       },
       {
         id: 4,
+        image: "/pages/image/ordertotal.png",
         text: "订单统计"
       },
       {
         id: 5,
+        image: "/pages/image/stocktotal.png",
         text: "库存分析"
       },
       {
         id: 6,
+        image: "/pages/image/customertotal.png",
         text: "客户分析"
       },
     ]

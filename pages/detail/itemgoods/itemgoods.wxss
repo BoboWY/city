@@ -34,6 +34,7 @@
 .item_money{
   font-size: 32rpx;
   color: #1A1A1A;
+  font-weight: 800;
 }
 .item_munber{
   font-size: 24rpx;
@@ -49,6 +50,7 @@
   margin: 49rpx auto;
   color: #333333;
   font-size: 36rpx;
+  font-weight: 800;
 }
 .goods_image{
   width: 100%;
@@ -61,7 +63,8 @@
   height: 98rpx;
   position: fixed;
   bottom: 0;
-  background-color: #808080;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 1rpx 0rpx 0rpx rgba(238,238,238,1);
 }
 /* 导航栏信息 */
 .item_footer{

@@ -27,7 +27,7 @@
           <view class='nav_information'>
               <view class='nav_left'>
                 <view class="{{status?'item_total border_no':'item_total'}}" bindtap='statustotal'>
-                    <icon color='#FFA319' type='success' size='14' wx:if="{{status}}"></icon>
+                    <icon class='icon_place' color='#FFA319' type='success' size='18' wx:if="{{status}}"></icon>
                 </view>
                 <view class='nav_left_text'>全选</view>
               </view>

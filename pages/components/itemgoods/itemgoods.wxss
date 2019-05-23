@@ -1,0 +1,52 @@
+.item_goods_box{
+
+}
+/* 商品列表 */
+.goods_list{
+  display: flex;
+  height: 220rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  border: 1rpx solid #fff;
+  border-radius: 6px;
+}
+
+.item_goods_image{
+  width: 220rpx;
+  height: 220rpx;
+  vertical-align: middle;  
+}
+
+.item_goods_list{
+  width: cacl(100% - 200rpx - 62rpx);
+  margin: 0 31rpx;
+}
+
+.item_goods{
+  margin: 28rpx 0;
+  height: 70rpx;
+  font-size: 28rpx;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.item_goods_money_munber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50rpx;
+}
+
+.item_money{
+  color: #1A1A1A;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.item_munber{
+  width: 54rpx;
+  height: 54rpx;
+}
+.item_munber_image{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}

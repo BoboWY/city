@@ -1,6 +1,6 @@
 {
   "usingComponents": {
     "itemgoods":"../components/itemgoods/itemgoods",
-    "saledetail": "../components/saledetail/saledetail"
+    "saledetail":"../components/saledetail/saledetail"
   }
 }

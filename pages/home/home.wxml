@@ -12,8 +12,9 @@
 
     <!-- 新增商品 -->
     <view class='home_add_goods'>
-          <view class='add_goods_title'>新增商品</view>
-          <view class='goods_list' bindtap='itemgoods'>
+          <view class='add_goods_title'>新品商品</view>
+          <itemgoods goodsData="{{itemgoodsdata}}"></itemgoods>
+          <!-- <view class='goods_list' bindtap='itemgoods'>
               <image src="../image/demo1.jpg" class='item_goods_image'></image>
               <view class='item_goods_list'>
                   <view class='item_goods'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
@@ -24,7 +25,7 @@
                       </view>
                   </view>
               </view>
-          </view>
+          </view> -->
     </view>
 
     <!-- 更多新增商品 -->
@@ -36,8 +37,9 @@
     <!-- 热销商品 -->
     <view class='good_goods_box'>
         <view class='goods_title'>热销商品</view>
-        <view class='item_good_list'>
-              <view class='item_good_goods' bindtap='itemgoods'>
+        <saledetail saleData="{{saledata}}"></saledetail>
+        <!-- <view class='item_good_list'> -->
+              <!-- <view class='item_good_goods' bindtap='itemgoods'>
                     <image src='../image/demo1.jpg' class='item_gooods_image'></image>
                     <view class='item_goods_text'>D60-H31A60升电热水器WIFI智能远程控制高温保养</view>
                     <view class='item_goods_action'>
@@ -60,7 +62,7 @@
                         <view class='item_money'>￥339</view>
                         <image src='../image/add.png' class='item_goods_icon'></image>
                     </view>
-              </view>
-        </view>
+              </view> -->
+        <!-- </view> -->
     </view>
 </view>

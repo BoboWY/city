@@ -29,7 +29,8 @@
     "pages/detail/goodstotal/goodstotal",
     "pages/detail/stocktotal/stocktotal",
     "pages/detail/customertotal/customertotal",
-    "pages/detail/storetotal/storetotal"
+    "pages/detail/storetotal/storetotal",
+    "pages/demo/demo"
   ],
   "window": {
     "backgroundTextStyle": "light",

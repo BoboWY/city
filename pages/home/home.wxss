@@ -21,6 +21,7 @@
   font-size: 34rpx;
   margin: 30rpx 0;
   color: #1A1A1A;
+  font-weight: bold;
 }
 /* 商品列表 */
 .goods_list{
@@ -56,6 +57,7 @@
 .item_money{
   color: #1A1A1A;
   font-size: 32rpx;
+  font-weight: bold;
 }
 .item_munber{
   width: 54rpx;
@@ -75,10 +77,13 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: #D9D9D9;
-  border-radius: 6px;
+  background:rgba(255,255,255,1);
+  border:1rpx solid rgba(242, 242, 242, 0.5);
+  box-shadow:0rpx 3rpx 20rpx 0rpx rgba(204,204,204,0.25);
+  border-radius:6rpx;
   color: #666666;
   font-size: 32rpx;
+  font-weight: bold;
 }
 
 .item_icon{
@@ -97,6 +102,7 @@
   font-size: 34rpx;
   margin: 30rpx 0;
   color: #1A1A1A;
+  font-weight: bold;
 }
 
 .item_good_list{
@@ -131,5 +137,5 @@
 .item_goods_icon{
   width: 40rpx;
   height: 40rpx;
-  vertical-align: middle;item_goods
+  vertical-align: middle;
 }

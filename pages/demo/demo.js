@@ -1,10 +1,24 @@
-// pages/detail/addgoods/addgoods.js
+// pages/demo/demo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    itemgoodsdata:[
+      {
+        id:1,
+        image:"../../image/demo1.jpg",
+        text:"D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money:339
+      },
+      {
+        id:2,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 450
+      }
+    ],
     saledata:[
       {
         id: 1,

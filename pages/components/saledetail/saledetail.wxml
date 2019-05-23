@@ -1,0 +1,11 @@
+<view class="sale_detail_box">
+    <!-- 热销商品 -->
+  <view class='item_good_goods' data-id="{{item.id}}" wx:for="{{saleData}}" wx:key="{{index}}" bindtap='itemgoods'>
+    <image src='{{item.image}}' class='item_gooods_image'></image>
+      <view class='item_goods_text'>{{item.text}}</view>
+      <view class='item_goods_action'>
+          <view class='item_money'>￥{{item.money}}</view>
+          <image src='../../image/add.png' class='item_goods_icon'></image>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<view class="demo_box">
+  <itemgoods goodsData="{{itemgoodsdata}}"></itemgoods>
+  <saledetail saleData="{{saledata}}"></saledetail>
+</view>

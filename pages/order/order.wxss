@@ -12,6 +12,7 @@
 .item_nav{
   font-size: 28rpx;
   color: #999999;
+  font-weight: 500;
 }
 .item_nav_active{
   font-size: 32rpx;
@@ -75,6 +76,9 @@
 }
 .money{
   font-weight: bold;
+}
+.munber{
+  font-weight: 500;
 }
 .goods_detail{
   display: flex;

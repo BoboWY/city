@@ -22,11 +22,12 @@
   margin-top: 30rpx;
 }
 .item_icon{
-  width: 54rpx;
-  height: 54rpx;
+  width: 120rpx;
+  height: 120rpx;
 }
 .item_text{
   margin-top: 35rpx;
   font-size: 28rpx;
   color: #333;
+  font-weight: 500;
 }

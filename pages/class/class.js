@@ -21,7 +21,22 @@ Page({
           text: "手机用品"
         }
       ],
-      active:1
+      active:1,
+      // 单个商品
+    itemgoodsdata:[
+      {
+        id: 1,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 339
+      },
+      {
+        id: 2,
+        image: "../../image/demo1.jpg",
+        text: "D60-H3160升电热水器WIFI智能远程控制高温保养",
+        money: 450
+      }
+    ]
   },
 
   /**

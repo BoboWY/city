@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText":"新增商品"
+  "usingComponents": {
+    "saledetail": "../components/saledetail/saledetail"
+  },
+  "navigationBarTitleText":"新品商品"
 }

@@ -11,7 +11,8 @@
         </view>
     <!-- 相对应商品  -->
     <view class='item_goods_right'>
-        <view class='item_goods_detail' bindtap='goodsdetail'>
+      <itemgoods goodsData="{{itemgoodsdata}}"></itemgoods>
+        <!-- <view class='item_goods_detail' bindtap='goodsdetail'>
               <image src="../image/demo1.jpg" class='item_goods_image'></image>
               <view class='item_goods_list'>
                   <view class='item_goods'>D60-H3160升电热水器WIFI智能远程控制高温保养</view>
@@ -22,7 +23,7 @@
                       </view>
                   </view>
               </view>
-        </view>
+        </view> -->
     </view>
     </view>
 </view>

@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "itemgoods": "../components/itemgoods/itemgoods"
+  },
   "navigationBarTitleText":"分类"
 }

@@ -26,12 +26,11 @@
   border-radius:6rpx;
 }
 .item_icon{
-  width: 45rpx;
-  height: 36rpx;
+  width: 36rpx;
+  height: 30rpx;
   border-radius: 50%;
   border: 1rpx solid #B3B3B3;
-  box-sizing: border-box;
-  margin: 0 30rpx;
+  margin: 0 20rpx;
 }
 .item_goods_image{
   width: 160rpx;
@@ -39,6 +38,7 @@
   vertical-align: middle;
 }
 .item_goods_detail{
+  width: cacl(100% - 36rpx - 40rpx 160rpx - 70rpx);
   margin: 26rpx 35rpx;
 }
 
@@ -95,6 +95,10 @@
 }
 .nav_left{
   align-items: center;
+}
+.icon_place{
+  position: absolute;
+  top: 20rpx;
 }
 .item_total{
   width: 36rpx;
